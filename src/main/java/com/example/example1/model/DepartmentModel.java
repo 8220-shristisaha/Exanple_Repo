@@ -11,7 +11,7 @@ import lombok.Data;
 public class DepartmentModel {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private String deptName;
